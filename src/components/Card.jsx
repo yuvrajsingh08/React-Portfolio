@@ -1,13 +1,15 @@
 import React from 'react'
 
 const Card = ({project}) => {
+  console.log(project.description.length)
+  const description = project.description.length > 200 ? `${project.description.substring(0,200)}....` : project.description;
   return (
-    <div className="sm:w-[550px] sm:h-[600px] rounded-lg bg-[#E1DDDB] shadow-2xl ">
+    <div className="sm:w-[550px] sm:h-[600px] rounded-lg bg-white shadow-2xl ">
       <div className="w-full sm:h-[350px] h-[200px] overflow-hidden  rounded-t-lg">
         <img
           src={project.image}
           alt={project.id}
-          className="sm:h-[350px] h-[200px] w-full object-cover"
+          className="sm:h-[350px] h-[200px] w-full object-cover p-[2px] rounded-lg"
         />
       </div>
       <h1 className="font-semibold sm:text-2xl text-lg tracking-wide sm:pt-6 pt-2 py-2 sm:px-4 px-2">
@@ -21,7 +23,7 @@ const Card = ({project}) => {
         ))}
       </div>
       <div className="px-4 pr-6 sm:text-base text-sm sm:tracking-wider py-4 text-justify">
-        {project.description}
+        {description}
       </div>
     </div>
   );

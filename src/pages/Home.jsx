@@ -5,7 +5,7 @@ import About from '../components/About';
 
 const Home = () => {
   return (
-    <div className='md:mt-20 sm:mt-16'>
+    <div className='md:mt-16 sm:mt-16'>
       <div className="flex md:flex-row sm:gap-2 gap-12  flex-col-reverse justify-between items-center md:px-24 py-8  sm:py-16 w-full md:h-[100vh] hidebar">
         <div className="flex flex-col sm:text-start items-center sm:items-start
          text-center sm:gap-6 gap-4 w-full px-4 sm:w-full md:w-[60%] lg:w-[40%]">

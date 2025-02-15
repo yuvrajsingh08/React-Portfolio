@@ -10,15 +10,15 @@ const About = () => {
     title: "Admin Dashboard",
     tags: ["Reactjs", "Redux", "JavaScript"],
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum dolor sit amet consectetur adipisicing elit. Nam repreheit at rem unde sint deleniti est ipsa laborum labore ea fuga corporis autem, tempore facilis.",
+      "The Admin Dashboard is a web application built using React.js that provides administrators with an interactive and visually appealing interface to manage data efficiently. The dashboard includes various widgets, charts, and tables for data visualization and management. It is designed with a responsive and modern UI for seamless user experience.",
     image: project1,
   };
   const Project02 = {
     id: "02",
-    title: "Admin Dashboard",
-    tags: ["Reactjs", "Redux", "JavaScript"],
+    title: "GOSHOP - An eCommerce Website",
+    tags: ["Reactjs", "Redux", "NodeJs", "ExpessJs"],
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum dolor sit amet consectetur adipisicing elit. Nam repreheit at rem unde sint deleniti est ipsa laborum labore ea fuga corporis autem, tempore facilis.",
+      "This is a dynamic and responsive E-commerce website that allows users to explore and purchase a variety of products. The website includes functionalities such as user authentication, product browsing, shopping cart management, and order processing.",
     image: project2,
   };
   return (

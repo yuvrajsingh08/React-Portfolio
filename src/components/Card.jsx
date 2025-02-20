@@ -4,7 +4,7 @@ const Card = ({project}) => {
   console.log(project.description.length)
   const description = project.description.length > 200 ? `${project.description.substring(0,200)}....` : project.description;
   return (
-    <div className="sm:w-[550px] sm:h-[600px] rounded-lg bg-[#f9f5f5] shadow-2xl ">
+    <div className="sm:w-[550px] sm:h-[600px] rounded-lg bg-[#e7e0f7d7] shadow-2xl ">
       <div className="w-full sm:h-[350px] h-[200px] overflow-hidden  rounded-t-lg">
         <img
           src={project.image}

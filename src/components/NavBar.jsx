@@ -9,7 +9,7 @@ const NavBar = () => {
       <div>
         <div className="flex sm:gap-20 gap-4 justify-between items-center ">
           <h1>Project</h1>
-          <button className="bg-[#5222D0] text-white sm:px-4 px-2  py-2 rounded-md sm:rounded-xl">
+          <button  className="bg-[#5222D0] text-white sm:px-4 px-2  py-2 rounded-md sm:rounded-xl">
             Contact
           </button>
         </div>

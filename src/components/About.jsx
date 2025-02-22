@@ -12,6 +12,8 @@ const About = () => {
     description:
       "The Admin Dashboard is a web application built using React.js that provides administrators with an interactive and visually appealing interface to manage data efficiently. The dashboard includes various widgets, charts, and tables for data visualization and management. It is designed with a responsive and modern UI for seamless user experience.",
     image: project1,
+    github: "https://github.com/yuvrajsingh08/ADMIN-DASHBOARD",
+    live: "https://admin-dashboard-flax-two.vercel.app",
   };
   const Project02 = {
     id: "02",
@@ -20,6 +22,8 @@ const About = () => {
     description:
       "This is a dynamic and responsive E-commerce website that allows users to explore and purchase a variety of products. The website includes functionalities such as user authentication, product browsing, shopping cart management, and order processing.",
     image: project2,
+    github: "https://github.com/yuvrajsingh08/Ecommerce-APP",
+    live: "https://ecommerce-app-frontend-er1w.onrender.com/",
   };
   return (
     <div className="md:px-24 sm:px-2 px-8 py-12 flex flex-col gap-6">

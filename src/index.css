@@ -11,6 +11,6 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-/* .hidebar::-webkit-scrollbar {
+.hidebar::-webkit-scrollbar {
   display: none;
-} */
+}

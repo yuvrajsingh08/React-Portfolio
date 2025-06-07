@@ -17,6 +17,7 @@ const SkillItem = ({ item }) => {
       className="flex flex-col gap-4 items-center"
       drag
       dragConstraints={{ left: -100, right: 100, top: -100, bottom: 100 }}
+      dragSnapToOrigin={true}
       dragElastic={0.3}
     >
       <img

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useEffect} from 'react'
 import Card from '../components/Card';
 import project1 from "../assests/project/project01.png";
 import project2 from "../assests/project/project02.png";
@@ -36,6 +36,12 @@ const Projects = () => {
       github: "https://github.com/yuvrajsingh08/Chat-App",
       live: "https://chat-app-frontend-2xlg.onrender.com",
     };
+    useEffect(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth', // Enables smooth scrolling
+      });
+    }, []);
   return (
     <div  className=" mt-20 flex gap-12 sm:flex-row flex-col flex-wrap px-4">
       <Card  project={Project01} />

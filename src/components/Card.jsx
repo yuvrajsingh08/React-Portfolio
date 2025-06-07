@@ -10,7 +10,7 @@ const Card = ({project}) => {
       onClick={() => {
         setPop(true);
       }}
-      className="sm:w-[550px] sm:h-[600px] rounded-lg bg-[#e7e0f7d7] shadow-2xl "
+      className="sm:w-[550px] sm:h-[600px] rounded-lg bg-[#e7e0f7d7] shadow-2xl cursor-pointer"
     >
       <div className="w-full sm:h-[350px] h-[200px] overflow-hidden  rounded-t-lg">
         <img
